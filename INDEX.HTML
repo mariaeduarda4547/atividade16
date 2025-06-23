@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Empresa Fictícia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">EmpresaFictícia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Capa -->
+  <header class="bg-cover text-center py-5" style="background-image: url('img/capa.jpg');">
+    <div class="container">
+      <h1 class="display-4 titulo-site">Bem-vindo à Empresa Fictícia</h1>
+      <p class="lead subtitulo-site">Soluções modernas para seu negócio crescer</p>
+    </div>
+  </header>
+
+  <!-- Sobre a Empresa -->
+  <section id="sobre" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre a Empresa</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="imagem.png" height="300" width="520px">
+          </div>
+        <div class="col-md-6">
+          <p>Somos uma empresa especializada em fornecer soluções inovadoras em tecnologia, com foco em excelência, transparência e compromisso com os resultados dos nossos clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nossos Serviços</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento Web</h5>
+              <p class="card-text">Criação de sites modernos, responsivos e otimizados para o seu negócio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Marketing Digital</h5>
+              <p class="card-text">Campanhas estratégicas para aumentar sua visibilidade online.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Consultoria</h5>
+              <p class="card-text">Orientação especializada para transformar desafios em oportunidades.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Fale Conosco</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; 2025 Empresa Fictícia. Todos os direitos reservados.</p>
+      <div>
+        <a href="#" class="text-white me-3">Facebook</a>
+        <a href="#" class="text-white me-3">Instagram</a>
+        <a href="#" class="text-white">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
